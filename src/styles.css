@@ -1,0 +1,111 @@
+/* Global styles for body and fonts */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f7fc;
+  color: #333;
+}
+
+/* Basic reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Input styling */
+input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #6C5B7B;
+}
+
+/* Premium card-like style for the list view */
+.pdf-card {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.pdf-card:hover {
+  transform: translateY(-5px);  /* Hover effect to lift the card */
+}
+
+.pdf-card img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.pdf-card h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.pdf-card p {
+  color: #777;
+  font-size: 14px;
+}
+
+.pdf-card button {
+  background-color: #6C5B7B;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pdf-card button:hover {
+  background-color: #3E3B6B;
+}
+
+/* Styling for PDF thumbnail images */
+.pdf-thumbnail {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.pdf-card {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+/* No PDFs found message */
+.no-pdfs {
+  font-size: 16px;
+  color: #999;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Container for main content */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
