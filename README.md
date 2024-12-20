@@ -14,12 +14,12 @@ Follow these steps to get the application running locally:
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/your-repository-name.git
+    git clone https://github.com/sumitind108/pdf-reader-app.git
     ```
 
 2. Navigate to the project folder:
     ```bash
-    cd your-repository-name
+    cd pdf-reader-app
     ```
 
 3. Install dependencies:
@@ -50,4 +50,4 @@ Follow these steps to get the application running locally:
 ## Deployment
 
 The project has been deployed online and can be accessed at the following link:
-[Your Deployed Application Link](https://your-deployed-app-link.com)
+[Your Deployed Application Link](https://pdf-reader-app-iota.vercel.app/)
